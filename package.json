@@ -1,0 +1,17 @@
+{
+  "name": "weather_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["Weather_api, Node.js, Express, dotenv, node-fetch"],
+  "author": "Abdelrahman Moharram (3bdoabk)",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2"
+  }
+}

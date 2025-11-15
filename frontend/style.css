@@ -1,0 +1,68 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #55697c, #a29bfe);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #e8e8e8;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 320px;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  color: #2d3436;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+}
+
+.btn {
+  background: #0984e3;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background: #0770c2;
+}
+
+.hidden {
+  display: none;
+}
+
+#weather {
+  margin-top: 20px;
+}
+
+#icon {
+  width: 80px;
+  height: 80px;
+}
+
+#temperature {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #2d3436;
+}
+
+#description {
+  color: #636e72;
+}

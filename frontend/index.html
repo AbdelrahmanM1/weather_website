@@ -1,0 +1,32 @@
+<!-- Sorry Everyone but I am roasting my code every day I see -->
+<!--I AM FUCKING TERRIBLE AT CODING SO I MADE THIS -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Abdelrahman Moharram">
+  <meta name="description" content="a simple weather app that I made using html, css and javascirpt. of course I used a backend express to handle requests and api and env for security reasons :)">
+  <meta name="keywords" content="Weather_api, Node.js, Express, dotenv, node-fetch, weather app, frontend, backend">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+   <!--DIV-->
+  <div class="container">
+    <h1>Weather App</h1>
+    <input type="text" id="cityInput" placeholder="Enter city name" />
+    <button id="searchBtn" class="btn">Get Weather</button>
+
+    <div id="weather" class="hidden">
+      <h2 id="cityName"></h2>
+      <!--I DON"T HAVE ICON SORRY :)-->
+      <img id="icon" src="" alt="Weather Icon" />
+      <p id="description"></p>
+      <p id="temperature"></p>
+    </div>
+  </div>
+  <!--IT IS A FUCKING LINKING THE HTML WITH JAVASCRIPT-->
+  <script src="app.js"></script>
+</body>
+</html>
